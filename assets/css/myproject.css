@@ -1,0 +1,46 @@
+nav {
+    height: 7vh;
+}
+
+.container-fluid {
+    height: 93vh;
+    background-color: whitesmoke;
+}
+
+.container-form {
+    width: 400px;
+}
+
+.date{
+    display: flex;
+    flex: 50%;
+    width: 100%;
+}
+
+.date .start{
+    flex: 50%;
+    margin-right: 5px;
+}
+
+.date .end{
+    flex: 50%;
+    margin-left: 5px;
+}
+
+.checkbox{
+    display: flex;
+}
+
+.checkbox .left-form-check{
+    flex: 50%;
+    margin-top: 10px;
+}
+
+.checkbox .right-form-check{
+    flex: 50%;
+    margin-top: 10px;
+}
+
+textarea{
+    resize: none;
+}
